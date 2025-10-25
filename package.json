@@ -1,0 +1,27 @@
+{
+  "name": "vercel-gemini-proxy-api",
+  "version": "1.0.0",
+  "description": "API Proxy to Google Gemini on Vercel",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "vercel",
+    "serverless",
+    "gemini",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
