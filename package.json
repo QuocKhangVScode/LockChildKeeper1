@@ -1,18 +1,13 @@
 {
-  "name": "vercel-gemini-proxy-api",
+  "name": "server",
   "version": "1.0.0",
-  "description": "API Proxy to Google Gemini on Vercel",
+  "description": "",
   "main": "main.js",
+  "type": "module",  // 👈 DÒNG NÀY PHẢI ĐƯỢC THÊM
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "vercel",
-    "serverless",
-    "gemini",
-    "express"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
